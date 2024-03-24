@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portofolio</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+        background-image: url('background.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .menu {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .menu a {
+        margin: 0 20px;
+        text-decoration: none;
+        color: #333;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    .galery-item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .galery-item img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+    .galery-item img:hover {
+        transform: scale(1.1);
+    }
+    .social-media {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .social-media a {
+        margin: 0 10px;
+    }
+    .social-media img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        transition: transform 0.3s ease;
+    }
+    .social-media img:hover {
+        transform: scale(1.2);
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <a href="#about">Tentang</a>
+            <a href="#galery">Galery</a>
+            <a href="#contact">Kontak</a>
+        </div>
+        <h1 id="about">Tentang Saya</h1>
+        <div class="menu"><p>Saya adalah seorang mahasiswa semester 5 Fakultas Tekhnik Informatika di Universitas Pamulang</p>
+        </div>
+            <h2 id="galery">Galery</h2>
+        <div class="galery-item">
+            <img src="galery2.jpeg" alt="Galey 2">
+            <!-- Tambahkan gambar-gambar portofolio lainnya sesuai kebutuhan -->
+        </div>
+        <h2 id="contact">Kontak</h2>
+        <div class="social-media">
+            <a href="mailto:aditya.satya1999@gmail.com" target="_blank">
+                <img src="gmail.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/contoh" target="_blank">
+                <img src="instagram.png" alt="Instagram">
+            </a>
+            <a href="https://github.com/adityasatyalaksana" target="_blank">
+                <img src="github.png" alt="Twitter">
+            </a>
+            <a href="https://www.linkedin.com/in/aditya-satya-laksana/" target="_blank">
+                <img src="linkedin.png" alt="LinkedIn">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
